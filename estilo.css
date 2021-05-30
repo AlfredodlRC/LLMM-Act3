@@ -1,0 +1,268 @@
+body {
+    display: inline-block;
+    width: 900px;
+    margin-left: calc(50% - 450px);
+    background-color: PaleTurquoise;
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+aside {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-left: 2%;
+    border-left: 1px dotted Thistle;
+    box-shadow:  -4px 0px Lavender;
+}
+
+main {
+    display: inline-block;
+    width: 65%;
+    margin-left: 2%;
+}
+
+footer {
+    display: inline-block;
+    width: 100%;
+    height: 1.8em;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main ul {
+    display: inline-block;
+    position: relative;
+    left: 1%;
+    width: 45%;
+}
+
+main li {
+    display:inline-block;
+    width: 80%;
+    margin-left: 2%;
+    margin-bottom: 20px;
+    border: 2px solid SteelBlue;
+    border-radius: 41%;
+    text-align: center;
+    box-shadow: -2px 4px MidnightBlue;
+    background-color: AliceBlue;
+    background-image: radial-gradient(farthest-corner at 95% 5%, AliceBlue 4%, lightskyblue 15%,skyblue 50%, LightSteelBlue 78%, CornflowerBlue)
+}
+
+main li:hover {
+    background-color: rgb(133, 163, 201);
+}
+
+#profesores {
+    display:inline-block;
+    vertical-align: top;
+    margin-left: 4%;
+    margin-top: 20px;
+    border-spacing: .9em 22px;
+}
+
+
+table {
+    border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: -3px 3px;
+    background-color:  DeepSkyBlue;
+    margin: 15px auto 20px auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    border-spacing: .1em 4px;
+}
+
+td {
+    border: 1px solid MidnightBlue;
+    border-radius: 3px;
+    box-shadow: inset -2px -2px  rgb(68,198,245);
+    background-color: skyblue;
+    text-align: center;
+}
+
+.CabeceraColumna {
+    border: 1px solid MidnightBlue;
+    border-radius: 3px;
+    box-shadow: inset -2px -2px PowderBlue;
+    background-color: DarkTurquoise;
+}
+
+
+aside li {
+    display:inline-block;
+    width: 118%;
+    margin-left: -18%;
+    margin-bottom: 20px;
+    border: 2px solid SteelBlue;
+    border-radius: 15%;
+    text-align: center;
+    box-shadow: 1px 3px MidnightBlue;
+    background-color: LightSteelBlue;
+}
+
+aside li:hover {
+    background-color: rgb(133, 163, 201);
+}
+
+
+form {
+    border: 1px solid black;
+    border-radius: 4% 8% 6% 4%;
+    box-shadow: 2px 5px MidnightBlue;
+    background-color: lightskyblue;
+    padding-top: 20px;
+}
+
+form:hover {
+    background-color: DeepSkyBlue;
+}
+
+a {
+    font-size: small;
+}
+
+label, input {
+    display:inline-block;
+    margin-bottom: 5px;
+    margin-left: 1.5%;
+}
+
+.dato {
+    width: 96%;
+    margin-left: 2%;
+    margin-bottom: 8px;
+}
+
+.boton {
+    width: 42%;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    background-color:MediumPurple;
+    color: LightSteelBlue;
+}
+
+.boton:hover {
+    background-color: BlueViolet;
+}
+
+
+textarea {
+    width: 96%;
+    height: 18em;
+    margin-left: 2%;
+    margin-bottom: 8px;
+
+}
+
+@media (max-width: 950px) {
+    body {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    aside {
+        display: inline-block;
+        width: 100%;
+        margin-left: 0%;
+        border-left: 0px dotted Thistle;
+        box-shadow:  0px 0px;
+    }
+    
+    main {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    main ul {
+        left: 6%;
+        width: 45%;
+    }
+    
+    main li {
+        width: 80%;
+        margin-left: 2%;
+        border: 2px solid SteelBlue;
+        border-radius: 41%;
+        box-shadow: 2px 4px MidnightBlue;
+        background-image: radial-gradient(farthest-corner at 5% 5%, AliceBlue 4%, lightskyblue 8%,skyblue 50%, LightSteelBlue 78%, CornflowerBlue)
+    }
+    
+    #profesores {
+        margin-left: 10%;
+        margin-top: 20px;
+        border-spacing: .9em 22px;
+    }
+    
+    
+    table {
+        border: 1px solid black;
+        border-radius: 6px;
+        box-shadow: 3px 3px;
+        background-color:  DeepSkyBlue;
+        margin: 15px auto 20px auto;
+        border-spacing: .1em 4px;
+    }
+    
+    td {
+        border: 1px solid MidnightBlue;
+        border-radius: 3px;
+        box-shadow: inset -2px -2px  rgb(68,198,245);
+    }
+    
+    .CabeceraColumna {
+        border: 1px solid MidnightBlue;
+        border-radius: 3px;
+        box-shadow: inset -2px -2px PowderBlue;
+    }
+    
+    aside li {
+        width: 100%;
+        margin-left: -4%;
+        margin-bottom: 20px;
+        border: 2px solid SteelBlue;
+        border-radius: 15%;
+        box-shadow: 1px 3px MidnightBlue;
+    }
+
+    a {
+        font-size: medium;
+    }
+    
+    
+    form {
+        width: 90%;
+        margin-left: 4%;
+        border: 1px solid black;
+        border-radius: 4% 4% 4% 4%;
+        box-shadow: 2px 5px MidnightBlue;
+    }
+    
+    label, input {
+        margin-left: 1.5%;
+    }
+    
+    .dato {
+        width: 96%;
+        margin-left: 2%;
+    }
+    
+    .boton {
+        width: 42%;
+        margin-left: 5%;
+    }
+    
+    textarea {
+        width: 96%;
+        height: 18em;
+        margin-left: 2%;
+    
+    }
+
+}
+
